@@ -41,3 +41,5 @@ var busquedaDNI = personas.Where(z=>z.Dni == 22356456).FirstOrDefault();
 var busquedaLINQ = (from p in personas
                     where p.Dni == 22356456
                     select p).FirstOrDefault();
+
+Console.WriteLine("Finalizando ejercicio");
